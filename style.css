@@ -1,0 +1,52 @@
+body{
+    background-color: rgb(0, 0, 0);
+}
+h1{
+    font-size: 50px;
+    margin-top: 0.5%;
+    margin-bottom: 0.5%;
+}
+h2{
+    font-size: 25px;
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+h3{
+    font-size: 15px;
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+div{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+#Fuente{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#Raro{
+    background-color: rgb(166, 187, 185);
+    border: rgb(66, 87, 85) solid 5px;
+}
+#RaroP{
+    float: right;
+}
+#FuenteRaro{
+    color: white;
+    font-family: Helvetica;
+}
+#Porfiado{
+    background-color: rgb(255, 255, 255);
+    border: rgb(71, 198, 241) solid 5px;
+} 
+#PorfiadoP{
+    float: left;
+}
+#FuentePorfiado{
+    color: black;
+    font-family: cursive;
+}
+
+#LáminaOnce{
+    background-color: rgb(14, 14, 14);
+    border: rgb(87, 87, 87) solid 5px;
+}
