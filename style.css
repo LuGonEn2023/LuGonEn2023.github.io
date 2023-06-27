@@ -54,11 +54,22 @@ div{
     border: rgb(71, 198, 241) solid 5px;
 } 
 #PorfiadoP{
-    float: left;
+    float: right;
 }
 #FuentePorfiado{
     color: black;
     font-family: cursive;
+}
+#HablaTuEspejo{
+    background-color: rgb(71, 71, 71);
+    border: rgb(42, 42, 42) solid 5px;
+}
+#HablaTuEspejoP{
+    float: left;
+}
+#HablaTuEspejoFuente{
+    color: rgb(255, 255, 255);
+    font-family:Arial, Helvetica, sans-serif ;
 }
 #LáminaOnce{
     background-color: rgb(14, 14, 14);
