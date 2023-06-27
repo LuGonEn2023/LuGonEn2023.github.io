@@ -17,15 +17,15 @@ h3{
     margin-bottom: 0%;
 }
 div{
-    margin-left: 5%;
-    margin-right: 5%;
+    padding: 10px;
 }
 #Álbumes{
+    display: grid;
     grid-template-columns: 50% 50%;
-    gap: 2%;
+    gap: 5px;
 }
 #Fuente{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 #Raro{
     background-color: rgb(166, 187, 185);
@@ -40,14 +40,14 @@ div{
 }
 #Bipolar{
     background-color: rgb(173, 177, 178);
-    border: rgb(66, 87, 85) solid 5px;
+    border: rgb(199, 217, 43) solid 5px;
 }
 #BipolarP{
     float: left;
 }
 #FuenteBipolar{
     color: rgb(182, 32, 70);
-    font-family:'Courier New', Courier, monospace;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 #Porfiado{
     background-color: rgb(255, 255, 255);
