@@ -56,6 +56,17 @@ div{
     color: rgb(90, 56, 63);
     font-family:'Times New Roman', Times, serif;
 }
+#EmilioGarcía{
+    background-color: rgb(214, 188, 163);
+    border: rgb(76, 171, 199) solid 5px;
+}
+#EmilioGarcíaP{
+    float: right
+}
+#FuenteEmilioGarcía{
+    color: rgb(216, 65, 72);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
 #Raro{
     background-color: rgb(166, 187, 185);
     border: rgb(66, 87, 85) solid 5px;
