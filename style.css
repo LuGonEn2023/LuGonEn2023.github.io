@@ -26,6 +26,7 @@ h3{
 div{
     padding: 10px;
 }
+
 #Álbumes{
     display: grid;
     grid-template-columns: 33% 33% 33%;
@@ -43,6 +44,17 @@ div{
 #FuenteAlbertoWolfYElCuartetoDeNos{
     color: rgb(170, 154, 171);
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#SoyUnaArveja{
+    background-color: rgb(255, 255, 255);
+    border: rgb(218, 189, 116) solid 5px;
+}
+#SoyUnaArvejaP{
+    float: right;
+}
+#FuenteSoyUnaArveja{
+    color: rgb(90, 56, 63);
+    font-family:'Times New Roman', Times, serif;
 }
 #Raro{
     background-color: rgb(166, 187, 185);
