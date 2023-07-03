@@ -1,5 +1,5 @@
 body{
-    background-color: white;
+    background-color: black;
 }
 h1{
     font-size: 50px;
@@ -16,6 +16,13 @@ h3{
     margin-top: 0%;
     margin-bottom: 0%;
 }
+#Logo{
+    float: right;
+}
+#Fuente{
+    color: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 div{
     padding: 10px;
 }
@@ -25,9 +32,6 @@ div{
     gap: 10px;
     margin-left: 25px;
     margin-right: 25px;
-}
-#Fuente{
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 #Raro{
     background-color: rgb(166, 187, 185);
