@@ -71,6 +71,17 @@ div{
     color: rgb(255, 255, 255);
     font-family:Arial, Helvetica, sans-serif ;
 }
+#ApocalipsisZombi{
+    background-color: rgb(255, 80, 1);
+    border: rgb(42, 42, 42) solid 5px;
+}
+#ApocalipsisZombiP{
+    float: right;
+}
+#ApocalipsisZombiFuente{
+    color: ;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
 #LáminaOnce{
     background-color: rgb(14, 14, 14);
     border: rgb(87, 87, 87) solid 5px;
