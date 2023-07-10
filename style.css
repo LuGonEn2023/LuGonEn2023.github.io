@@ -78,6 +78,17 @@ div{
     color: rgb(228, 226, 0);
     font-family: Arial, Helvetica, sans-serif;
 }
+#OtraNavidadEnLasTrincheras{
+    background-color: rgb(22, 96, 51);
+    border: rgb(174, 54, 53) solid 5px;
+}
+#OtraNavidadEnLasTrincherasP{
+    float: right;
+}
+#FuenteOtraNavidadEnLasTrincheras{
+    color: white;
+    font-family:sans-serif;
+}
 #Raro{
     background-color: rgb(166, 187, 185);
     border: rgb(66, 87, 85) solid 5px;
@@ -120,7 +131,7 @@ div{
 }
 #FuenteHablaTuEspejo{
     color: rgb(255, 255, 255);
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+    font-family:monospace;
 }
 #ApocalipsisZombi{
     background-color: rgb(255, 80, 1);
@@ -136,7 +147,7 @@ div{
 }
 #FuenteApocalipsisZombi2{
     color: rgb(144, 144, 144);
-    -webkit-text-stroke: 0.55px black;
+    -webkit-text-stroke: 0.6px black;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 #Jueves{
