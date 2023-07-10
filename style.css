@@ -67,6 +67,17 @@ div{
     color: rgb(216, 65, 72);
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+#CancionesDelCorazón{
+    background-color: rgb(42, 127, 196);
+    border: rgb(2, 159, 65) solid 5px;
+}
+#CancionesDelCorazónP{
+    float: right;
+}
+#FuenteCancionesDelCorazón{
+    color: rgb(228, 226, 0);
+    font-family: Arial, Helvetica, sans-serif;
+}
 #Raro{
     background-color: rgb(166, 187, 185);
     border: rgb(66, 87, 85) solid 5px;
@@ -109,11 +120,11 @@ div{
 }
 #FuenteHablaTuEspejo{
     color: rgb(255, 255, 255);
-    font-family:Arial, Helvetica, sans-serif ;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
 }
 #ApocalipsisZombi{
     background-color: rgb(255, 80, 1);
-    border: rgb(42, 42, 42) solid 5px;
+    border: rgb(144, 144, 144) solid 5px;
 }
 #ApocalipsisZombiP{
     float: right;
