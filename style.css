@@ -117,6 +117,27 @@ div{
     -webkit-text-stroke: 0.5px rgba(0, 0, 0, 0.5);
     font-family: 'Times New Roman', Times, serif;
 }
+#RevistaÉsta{
+    background-color: rgb(0, 158, 225);
+    border: rgb(242, 149, 76) solid 5px;
+}
+#RevistaÉstaP{
+    float: right;
+}
+#FuenteRevistaÉsta1{
+    color: white;
+    font-family: fantasy;
+    text-align: center;
+    background-color: rgb(227, 0, 20);
+    border: solid white 10px;
+    padding: 5px;
+    margin-right: 40%;
+}
+#FuenteRevistaÉsta2{
+    color: rgb(227, 0, 20);
+    -webkit-text-stroke: 0.2px rgb(251, 239, 1);
+    font-family: fantasy;
+}
 #Raro{
     background-color: rgb(166, 187, 185);
     border: rgb(95, 101, 76) solid 5px;
