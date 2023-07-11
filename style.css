@@ -37,6 +37,7 @@ div{
 #AlbertoWolfYElCuartetoDeNos{
     background-color: rgb(255, 255, 255);
     border: rgb(202, 194, 219) solid 5px;
+    border-radius: 5px;
 }
 #AlbertoWolfYElCuartetoDeNosP{
     float: right;
@@ -48,6 +49,7 @@ div{
 #SoyUnaArveja{
     background-color: rgb(255, 255, 255);
     border: rgb(218, 189, 116) solid 5px;
+    border-radius: 5px;
 }
 #SoyUnaArvejaP{
     float: right;
@@ -59,6 +61,7 @@ div{
 #EmilioGarcía{
     background-color: rgb(214, 188, 163);
     border: rgb(76, 171, 199) solid 5px;
+    border-radius: 5px;
 }
 #EmilioGarcíaP{
     float: right
@@ -70,6 +73,7 @@ div{
 #CancionesDelCorazón{
     background-color: rgb(42, 127, 196);
     border: rgb(2, 159, 65) solid 5px;
+    border-radius: 5px;
 }
 #CancionesDelCorazónP{
     float: right;
@@ -81,6 +85,7 @@ div{
 #OtraNavidadEnLasTrincheras{
     background-color: rgb(22, 96, 51);
     border: rgb(174, 54, 53) solid 5px;
+    border-radius: 5px;
 }
 #OtraNavidadEnLasTrincherasP{
     float: right;
@@ -92,6 +97,7 @@ div{
 #BarrancaAbajo{
     background-color: rgb(252, 250, 137);
     border: rgb(66, 87, 85) solid 5px;
+    border-radius: 5px;
 }
 #BarrancaAbajoP{
     float: right;
@@ -103,6 +109,7 @@ div{
 #ElTrenBala{
     background-color: rgb(209, 183, 150);
     border: rgb(218, 145, 136) solid 5px;
+    border-radius: 5px;
 }
 #ElTrenBalaP{
     float: right;
@@ -120,6 +127,7 @@ div{
 #RevistaÉsta{
     background-color: rgb(0, 158, 225);
     border: rgb(242, 149, 76) solid 5px;
+    border-radius: 5px;
 }
 #RevistaÉstaP{
     float: right;
@@ -138,9 +146,22 @@ div{
     -webkit-text-stroke: 0.2px rgb(251, 239, 1);
     font-family: fantasy;
 }
+#Cortamambo{
+    background-color: rgb(20, 108, 208);
+    border: rgb(253, 171, 98) solid 5px; 
+    border-radius: 5px;
+}
+#CortamamboP{
+    float: right;
+}
+#FuenteCortamambo{
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
 #Raro{
     background-color: rgb(166, 187, 185);
     border: rgb(95, 101, 76) solid 5px;
+    border-radius: 5px;
 }
 #RaroP{
     float: right;
@@ -152,6 +173,7 @@ div{
 #Bipolar{
     background-color: rgb(173, 177, 178);
     border: rgb(199, 217, 43) solid 5px;
+    border-radius: 5px;
 }
 #BipolarP{
     float: right;
@@ -163,6 +185,7 @@ div{
 #Porfiado{
     background-color: rgb(255, 255, 255);
     border: rgb(71, 198, 241) solid 5px;
+    border-radius: 5px;
 } 
 #PorfiadoP{
     float: right;
@@ -174,6 +197,7 @@ div{
 #HablaTuEspejo{
     background-color: rgb(71, 71, 71);
     border: rgb(42, 42, 42) solid 5px;
+    border-radius: 5px;
 }
 #HablaTuEspejoP{
     float: right;
@@ -185,6 +209,7 @@ div{
 #ApocalipsisZombi{
     background-color: rgb(255, 80, 1);
     border: rgb(144, 144, 144) solid 5px;
+    border-radius: 5px;
 }
 #ApocalipsisZombiP{
     float: right;
@@ -202,6 +227,7 @@ div{
 #Jueves{
     background-color: rgb(15, 15, 15);
     border: rgb(155, 150, 157) solid 5px;
+    border-radius: 5px;
 }
 #JuevesP{
     float: right;
@@ -213,6 +239,7 @@ div{
 #LáminaOnce{
     background-color: rgb(14, 14, 14);
     border: rgb(87, 87, 87) solid 5px;
+    border-radius: 5px;
 }
 #LáminaOnceP{
     float: right;
