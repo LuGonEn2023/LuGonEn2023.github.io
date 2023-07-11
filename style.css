@@ -54,7 +54,7 @@ div{
 }
 #FuenteSoyUnaArveja{
     color: rgb(90, 56, 63);
-    font-family:'Times New Roman', Times, serif;
+    font-family:serif;
 }
 #EmilioGarcía{
     background-color: rgb(214, 188, 163);
@@ -99,6 +99,23 @@ div{
 #FuenteBarrancaAbajo{
     color: rgb(218, 106, 56);
     font-family:sans-serif;
+}
+#ElTrenBala{
+    background-color: rgb(209, 183, 150);
+    border: rgb(218, 145, 136) solid 5px;
+}
+#ElTrenBalaP{
+    float: right;
+}
+#FuenteElTrenBala1{
+    color: rgb(89, 168, 162);
+    -webkit-text-stroke: 1px rgba(0, 0, 0, 0.5);
+    font-family: 'Times New Roman', Times, serif;
+}
+#FuenteElTrenBala2{
+    color: rgb(89, 168, 162);
+    -webkit-text-stroke: 0.5px rgba(0, 0, 0, 0.5);
+    font-family: 'Times New Roman', Times, serif;
 }
 #Raro{
     background-color: rgb(166, 187, 185);
