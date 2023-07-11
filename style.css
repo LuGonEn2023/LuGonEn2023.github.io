@@ -29,10 +29,10 @@ div{
 
 #Álbumes{
     display: grid;
-    grid-template-columns: 33% 33% 33%;
-    gap: 10px;
+    grid-template-columns: 50% 50%;
+    gap: 50px;
     margin-left: 25px;
-    margin-right: 25px;
+    margin-right: 85px;
 }
 #AlbertoWolfYElCuartetoDeNos{
     background-color: rgb(255, 255, 255);
@@ -89,9 +89,20 @@ div{
     color: white;
     font-family:sans-serif;
 }
+#BarrancaAbajo{
+    background-color: rgb(252, 250, 137);
+    border: rgb(66, 87, 85) solid 5px;
+}
+#BarrancaAbajoP{
+    float: right;
+}
+#FuenteBarrancaAbajo{
+    color: rgb(218, 106, 56);
+    font-family:sans-serif;
+}
 #Raro{
     background-color: rgb(166, 187, 185);
-    border: rgb(66, 87, 85) solid 5px;
+    border: rgb(95, 101, 76) solid 5px;
 }
 #RaroP{
     float: right;
