@@ -1,5 +1,6 @@
+body{margin: 0;}
 body{
-    background-color: black;
+    background-color: rgb(25, 30, 35);
 }
 h1{
     font-size: 50px;
@@ -8,165 +9,322 @@ h1{
 }
 h2{
     font-size: 25px;
-    margin-top: 0%;
-    margin-bottom: 0%;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 h3{
+    font-size: 20px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+p{
     font-size: 15px;
-    margin-top: 0%;
-    margin-bottom: 0%;
+}
+li{
+    font-size: 15px;
 }
 #Logo{
     float: right;
+    width: 250px;
+}
+nav{
+    background: rgb(255,219,203);
+    background: linear-gradient(90deg, rgba(255,219,203,1) 0%, rgba(198,134,250,1) 17%, rgba(90,105,199,1) 37%, rgba(0,0,0,1) 72%, rgba(0,0,0,1) 100%);
+    border-bottom: solid rgb(255, 157, 77) 10px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+}
+nav ul li{
+    float: left;
+}
+li a{
+    background-color: rgb(255, 217, 159);
+    border: solid rgb(84, 187, 255) 5px;
+    border-radius: 10px;
+    text-align: center;
+    display: block;
+    color: rgb(255, 255, 255);
+    -webkit-text-stroke: 2px black;
+    font-size: 35px;
+    width: 92.5%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-right: 186px;
+    text-decoration: none;
+}
+li a:hover{
+    background-color: rgb(230, 125, 40);
+    border: solid rgb(50, 50, 50) 5px;
+}
+#BotonÁlbum a:hover{
+    background: rgb(202,194,219);
+    background: linear-gradient(95deg, rgba(202,194,219,1) 0.368%, rgba(218,189,116,1) 6.25%, rgba(214,188,163,1) 12.132%, rgba(42,127,196,1) 18.014%, rgba(22,96,51,1) 23.896%, rgba(252,250,137,1) 29.778%, rgba(218,145,136,1) 35.66%, rgba(0,158,225,1) 41.542%, rgba(20,108,208,1) 47.424%, rgba(206,178,138,1) 53.306%, rgba(166,187,185,1) 59.188%, rgba(182,32,70,1) 65.07%, rgba(72,197,241,1) 70.952%, rgba(71,71,71,1) 76.834%, rgba(255,80,1,1) 82.716%, rgba(101,98,119,1) 88.598%, rgba(14,14,14,1) 94.48%);
+}
+#Titulo{
+    color: rgb(175, 175, 175);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    -webkit-text-stroke: 2px black;
+    margin-left: 37.5px;
+}
+#Botones{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
 }
 #Fuente{
+    color: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#Introducción{
+    color: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 225px;
+}
+#Banda{
+    float: right;
+    margin-left: 5px;
+    border: solid white 10px;
+}
+#Historia{
     color: white;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 div{
     padding: 10px;
 }
-
-#Álbumes{
+.Globos{
+    color: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(25, 25, 30);
+    border: solid rgb(10, 10, 10) 5px;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 25px;
+}
+#BsAs2008{
+    float: left;
+    margin-right: 10px;
+    border: solid white 7px;
+}
+#RM2009{
+    float: right;
+    margin-left: 10px;
+    border: solid white 7px;
+}
+#Vivo2016{
+    float: left;
+    margin-right: 10px;
+    border: solid white 7px;
+}
+#HistoriaTitulo{
+    color: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 25px;
+}
+#MiembrosTitulo{
+    color: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 225px;
+    padding-left: 25px;
+}
+#Miembros{
+    padding-right: 10px;
+}
+#Miembro{
     display: grid;
     grid-template-columns: 50% 50%;
-    gap: 50px;
-    margin-left: 25px;
-    margin-right: 85px;
+}
+#Foto{
+    float: right;
+    margin-right: 10px;
+    width: 300px;
+    border: solid white 5px;
+    border-radius: 3px;
+}
+#CuadrosRikiMusso{
+    background-color: rgb(15, 15, 20);
+    border: solid rgb(10, 10, 10) 5px;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    border-radius: 10px;
+    padding-right: 20px;
+}
+#SeparaciónCRM1{
+    width: 100%;
+    border-top: solid black 2px;
+    border-left: solid black 2px;
+    border-right: solid black 2px;
+}
+#SeparaciónCRM2{
+    width: 100%;
+    border-top: solid black 2px;
+    border-left: solid black 2px;
+    border-right: solid black 2px;
+    border-bottom: solid black 2px;
+}
+#SeparaciónCRM3{
+    width: 100%;
+    border-top: solid black 2px;
+    border-right: solid black 2px;
+}
+#SeparaciónCRM4{
+    width: 100%;
+    border-top: solid black 2px;
+    border-right: solid black 2px;
+    border-bottom: solid black 2px;
+}
+.Espacio1{
+    margin-bottom: 7px;
+}
+.Espacio2{
+    margin-bottom: 14px;
+}
+#ÁlbumesTitulo{
+    color: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 25px;
+    margin-top: 225px; 
+}
+#Álbumes{
+    margin-left: 75px;
+    margin-right: 75px;
+}
+.Álbum{
+    display: grid;
+    grid-template-columns: 60% 20% 20%;
+    border-radius: 15px;
+}
+#Portada{
+    float: right;
+    width: 300px;
+    border: solid rgba(0, 0, 0, 0.125) 2px;
+    border-radius: 5px;
 }
 #AlbertoWolfYElCuartetoDeNos{
     background-color: rgb(255, 255, 255);
     border: rgb(202, 194, 219) solid 5px;
-    border-radius: 5px;
-}
-#AlbertoWolfYElCuartetoDeNosP{
-    float: right;
-}
-#FuenteAlbertoWolfYElCuartetoDeNos{
     color: rgb(170, 154, 171);
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#AlbertoWolfYElCuartetoDeNos p{
+    font-size: 17px;
+}
+#AlbertoWolfYElCuartetoDeNos li{
+    font-size: 17px;
+    margin-bottom: 5px;
 }
 #SoyUnaArveja{
     background-color: rgb(255, 255, 255);
     border: rgb(218, 189, 116) solid 5px;
-    border-radius: 5px;
-}
-#SoyUnaArvejaP{
-    float: right;
-}
-#FuenteSoyUnaArveja{
     color: rgb(90, 56, 63);
     font-family:serif;
+}
+#SoyUnaArveja li{
+    font-size: 17px;
+    margin-bottom: 5px;
 }
 #EmilioGarcía{
     background-color: rgb(214, 188, 163);
     border: rgb(76, 171, 199) solid 5px;
-    border-radius: 5px;
-}
-#EmilioGarcíaP{
-    float: right
-}
-#FuenteEmilioGarcía{
     color: rgb(216, 65, 72);
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#EmilioGarcía p{
+    font-size: 17px;
+}
+#EmilioGarcía li{
+    font-size: 17px;
+    margin-bottom: 5px;
 }
 #CancionesDelCorazón{
     background-color: rgb(42, 127, 196);
     border: rgb(2, 159, 65) solid 5px;
-    border-radius: 5px;
-}
-#CancionesDelCorazónP{
-    float: right;
-}
-#FuenteCancionesDelCorazón{
     color: rgb(228, 226, 0);
     font-family: Arial, Helvetica, sans-serif;
+}
+#CancionesDelCorazón li{
+    font-size: 17px;
+    margin-bottom: 5px;
 }
 #OtraNavidadEnLasTrincheras{
     background-color: rgb(22, 96, 51);
     border: rgb(174, 54, 53) solid 5px;
-    border-radius: 5px;
-}
-#OtraNavidadEnLasTrincherasP{
-    float: right;
-}
-#FuenteOtraNavidadEnLasTrincheras{
     color: white;
     font-family:sans-serif;
+}
+#OtraNavidadEnLasTrincheras li{
+    font-size: 17px;
+    margin-bottom: 5px;
 }
 #BarrancaAbajo{
     background-color: rgb(252, 250, 137);
     border: rgb(66, 87, 85) solid 5px;
-    border-radius: 5px;
-}
-#BarrancaAbajoP{
-    float: right;
-}
-#FuenteBarrancaAbajo{
     color: rgb(218, 106, 56);
     font-family:sans-serif;
+}
+#BarrancaAbajo p{
+    font-size: 17px;
+}
+#BarrancaAbajo li{
+    font-size: 17px;
+    margin-bottom: 5px;
 }
 #ElTrenBala{
     background-color: rgb(209, 183, 150);
     border: rgb(218, 145, 136) solid 5px;
-    border-radius: 5px;
-}
-#ElTrenBalaP{
-    float: right;
-}
-#FuenteElTrenBala1{
     color: rgb(89, 168, 162);
     -webkit-text-stroke: 1px rgba(0, 0, 0, 0.5);
     font-family: 'Times New Roman', Times, serif;
 }
-#FuenteElTrenBala2{
-    color: rgb(89, 168, 162);
+#ElTrenBala p{
+    font-size: 17px;
     -webkit-text-stroke: 0.5px rgba(0, 0, 0, 0.5);
-    font-family: 'Times New Roman', Times, serif;
+}
+#ElTrenBala li{
+    font-size: 17px;
+    margin-bottom: 5px;
+    -webkit-text-stroke: 0.5px rgba(0, 0, 0, 0.5);
 }
 #RevistaÉsta{
     background-color: rgb(0, 158, 225);
     border: rgb(242, 149, 76) solid 5px;
-    border-radius: 5px;
+    color: rgb(227, 0, 20);
+    -webkit-text-stroke: 0.2px rgb(251, 239, 1);
+    font-family: fantasy;
 }
-#RevistaÉstaP{
-    float: right;
-}
-#FuenteRevistaÉsta1{
+#TituloRevistaÉsta{
     color: white;
     font-family: fantasy;
     text-align: center;
     background-color: rgb(227, 0, 20);
     border: solid white 10px;
+    -webkit-text-stroke: 0.2px rgba(251, 239, 1, 0);
     padding: 5px;
     margin-right: 40%;
 }
-#FuenteRevistaÉsta2{
-    color: rgb(227, 0, 20);
-    -webkit-text-stroke: 0.2px rgb(251, 239, 1);
-    font-family: fantasy;
+#RevistaÉsta li{
+    font-size: 17px;
+    margin-bottom: 5px;
 }
 #Cortamambo{
     background-color: rgb(20, 108, 208);
-    border: rgb(253, 171, 98) solid 5px; 
-    border-radius: 5px;
-}
-#CortamamboP{
-    float: right;
-}
-#FuenteCortamambo{
+    border: rgb(253, 171, 98) solid 5px;
     color: white;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#Cortamambo li{
+    font-size: 17px;
+    margin-bottom: 5px;
 }
 #ElCuartetoDeNos{
     background-color: rgb(206, 178, 138);
     border: rgb(95, 101, 76) solid 5px;
-    border-radius: 5px;
-}
-#ElCuartetoDeNosP{
-    float: right;
-}
-#FuenteElCuartetoDeNos{
     color: rgb(174, 188, 188);
     -webkit-text-stroke: 0.1px white;
     font-family: cursive;
@@ -174,90 +332,109 @@ div{
 #Raro{
     background-color: rgb(166, 187, 185);
     border: rgb(190, 178, 162) solid 5px;
-    border-radius: 5px;
-}
-#RaroP{
-    float: right;
-}
-#FuenteRaro{
     color: white;
     font-family: Helvetica;
+}
+#Raro li{
+    font-size: 17px;
+    margin-bottom: 5px;
 }
 #Bipolar{
     background-color: rgb(173, 177, 178);
     border: rgb(199, 217, 43) solid 5px;
-    border-radius: 5px;
-}
-#BipolarP{
-    float: right;
-}
-#FuenteBipolar{
     color: rgb(182, 32, 70);
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+#Bipolar li{
+    font-size: 17px;
+    margin-bottom: 5px;
+}
+#CriticasBipolar{
+    background-color: rgb(222, 224, 223);
+    border-radius: 10px;
+}
 #Porfiado{
     background-color: rgb(255, 255, 255);
-    border: rgb(71, 198, 241) solid 5px;
-    border-radius: 5px;
-} 
-#PorfiadoP{
-    float: right;
-}
-#FuentePorfiado{
+    border: rgb(72, 197, 241) solid 5px;
     color: black;
     font-family: cursive;
+}
+#Porfiado li{
+    font-size: 17px;
+    margin-bottom: 5px;
+}
+#PremiosPorfiado{
+    text-align: center;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    background-color: rgb(111, 207, 245);
+    border: rgb(72, 197, 241) solid 5px;
+    border-radius: 10px;
+    padding-right: 20px;
+}
+#SeparaciónPremiosPorfiado1{
+    width: 100%;
+    border-top: solid black 2px;
+    border-left: solid black 2px;
+    border-right: solid black 2px;
+}
+#SeparaciónPremiosPorfiado2{
+    width: 100%;
+    border-top: solid black 2px;
+    border-left: solid black 2px;
+    border-right: solid black 2px;
+    border-bottom: solid black 2px;
+}
+#SeparaciónPremiosPorfiado3{
+    width: 100%;
+    border-top: solid black 2px;
+    border-right: solid black 2px;
+}
+#SeparaciónPremiosPorfiado4{
+    width: 100%;
+    border-top: solid black 2px;
+    border-right: solid black 2px;
+    border-bottom: solid black 2px;
 }
 #HablaTuEspejo{
     background-color: rgb(71, 71, 71);
     border: rgb(42, 42, 42) solid 5px;
-    border-radius: 5px;
-}
-#HablaTuEspejoP{
-    float: right;
-}
-#FuenteHablaTuEspejo{
     color: rgb(255, 255, 255);
     font-family:monospace;
+}
+#HablaTuEspejo li{
+    font-size: 17px;
+    margin-bottom: 5px;
 }
 #ApocalipsisZombi{
     background-color: rgb(255, 80, 1);
     border: rgb(144, 144, 144) solid 5px;
-    border-radius: 5px;
-}
-#ApocalipsisZombiP{
-    float: right;
-}
-#FuenteApocalipsisZombi1{
     color: rgb(144, 144, 144);
     -webkit-text-stroke: 1px black;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
-#FuenteApocalipsisZombi2{
-    color: rgb(144, 144, 144);
-    -webkit-text-stroke: 0.6px black;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+#ApocalipsisZombi p{
+    font-size: 17px;
+    -webkit-text-stroke: 1px black;
+}
+#ApocalipsisZombi li{
+    font-size: 17px;
+    margin-bottom: 5px;
+    -webkit-text-stroke: 1px black;
 }
 #Jueves{
     background-color: rgb(15, 15, 15);
     border: rgb(155, 150, 157) solid 5px;
-    border-radius: 5px;
-}
-#JuevesP{
-    float: right;
-}
-#FuenteJueves{
     color: rgb(101, 98, 119);
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
 }
 #LáminaOnce{
     background-color: rgb(14, 14, 14);
     border: rgb(87, 87, 87) solid 5px;
-    border-radius: 5px;
-}
-#LáminaOnceP{
-    float: right;
-}
-#FuenteLáminaOnce{
     color: rgb(206, 179, 207);
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#LáminaOnce li{
+    font-size: 17px;
+    margin-bottom: 5px;
 }
